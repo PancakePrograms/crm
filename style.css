@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+.topBar {
+    width: 100vw;
+    background-image: linear-gradient(to right, rgb(69, 69, 190), 80%, rgb(55, 50, 125));
+
+}
+.topBar img {
+    width: 20px;
+    margin: 5px;
+}
