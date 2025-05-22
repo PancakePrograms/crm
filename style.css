@@ -1,13 +1,48 @@
 body {
     margin: 0;
-    overflow: hidden;
 }
 .topBar {
     width: 100vw;
-    background-image: linear-gradient(to right, rgb(69, 69, 190), 80%, rgb(55, 50, 125));
+    background-image: linear-gradient(to right, rgb(69, 69, 190), 80%, rgb(65, 58, 157));
 
 }
 .topBar img {
     width: 20px;
     margin: 5px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.main input {
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0;
+}
+.contactBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    width: 80%;
+    border: 1px solid black;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.contactBox select {
+
+    margin-bottom: 20px;
+}
+.contactBox label, select, input {
+    padding: 10px;
+    margin: 10px;
 }
